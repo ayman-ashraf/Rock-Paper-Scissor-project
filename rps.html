@@ -3,10 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rps-style.css" />
   </head>
 
   <body>
-    <h2>Rock Paper Scissor</h2>
+    <h1>Rock Paper Scissors</h1>
+    <p>Play Game! - Click on the buttons!</p>
+    <div class="keys">
+      <div class="key" id="game">
+        <button type="button" id="1" value="Rock">Rock!</button>
+      </div>
+      <div class="key" id="game">
+        <button type="button" id="2" value="Paper">Paper!</button>
+      </div>
+      <div class="key" id="game">
+        <button type="button" id="3" value="Scissors">Scissors!</button>
+      </div>
+      <div class="key" id="reset">
+        <button type="button" value="reset">Reset!</button>
+      </div>
+      <div class="container" id="container"></div>
+    </div>
+    <h1>Comments</h1>
+    <div class="grid-row-1-col-1">
+      <div id="each-round"></div>
+      <div id="scoreDisplay"></div>
+      <div id="final-round"></div>
+    </div>
+
     <script src="rps.js"></script>
   </body>
 </html>
